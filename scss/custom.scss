@@ -1,0 +1,70 @@
+@import "breakpoints/mixin-media-screen";
+
+$accent-color: #ffe956;
+$general-font-color: #555;
+
+
+.translated-ltr{
+	margin-top: 2rem;
+
+#ht-nav-toggle{
+	color: $general-font-color;
+}
+
+.menu-menu-1-container{
+	background: rgba(255,255,255,0.8);
+}
+}
+
+//header
+
+#logo {
+  width: 180px;
+}
+
+#site-header {
+  background: #fff;
+}
+
+.menu-item {
+  a {
+    color: $general-font-color;
+  }
+}
+
+//header END
+
+//footer
+
+#site-footer #copyright {
+	float: initial;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+//footer END
+
+form button,
+form input[type="reset"],
+form input[type="submit"],
+form input[type="button"] {
+  background: $accent-color;
+  color: $general-font-color;
+}
+
+#glt-translate-trigger {
+  text-shadow: none;
+
+  span {
+    font-weight: normal;
+  }
+}
+
+#page-header .ht-container {
+  text-align: center;
+  .hkb-site-search {
+    text-align: center;
+    margin: 2rem auto 0 auto;
+  }
+}

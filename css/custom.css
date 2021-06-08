@@ -1,0 +1,59 @@
+/*********************
+MIXIN MEDIA ONLY SCREEN
+*********************/
+.translated-ltr {
+  margin-top: 2rem;
+}
+
+.translated-ltr #ht-nav-toggle {
+  color: #555;
+}
+
+.translated-ltr .menu-menu-1-container {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+#logo {
+  width: 180px;
+}
+
+#site-header {
+  background: #fff;
+}
+
+.menu-item a {
+  color: #555;
+}
+
+#site-footer #copyright {
+  float: initial;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+}
+
+form button,
+form input[type="reset"],
+form input[type="submit"],
+form input[type="button"] {
+  background: #ffe956;
+  color: #555;
+}
+
+#glt-translate-trigger {
+  text-shadow: none;
+}
+
+#glt-translate-trigger span {
+  font-weight: normal;
+}
+
+#page-header .ht-container {
+  text-align: center;
+}
+
+#page-header .ht-container .hkb-site-search {
+  text-align: center;
+  margin: 2rem auto 0 auto;
+}
+/*# sourceMappingURL=custom.css.map */
